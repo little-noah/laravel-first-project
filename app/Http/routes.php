@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('welcome', 'WelcomeController@index');
+Route::get('welcome', 'WelcomeController@index_en');
+Route::get('benvenuto', 'WelcomeController@index_it');
